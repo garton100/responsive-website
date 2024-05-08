@@ -1,0 +1,167 @@
+/* HTML Element Selectors */
+body{
+    font-family:'Montserrat';
+}
+h2{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height:1.5;
+}
+h3{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f;
+}
+
+
+
+.big-heading{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 3.2rem;
+    line-height: 1.5;
+    font-weight: bolder;
+    color: #fff;
+    text-align: left
+}
+/* Contains navbar and div contents */
+.container-fluid{
+    padding:3% 15%;
+}
+.one{
+    position: relative;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.navbar{
+    padding-bottom:4.5rem;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: light;
+}
+/* h1,h2,h3,h4{
+    color:red;
+} */
+
+/* Download Buttons */
+.download-button{
+    margin:1.5rem 1.2rem 0 0;
+}
+.title-image{
+    width:60%;
+    transform:rotate(25deg);
+    padding-top: 3.5rem;
+    position: absolute;
+    right:50px;
+
+}
+/* Features Section */
+.row{
+    text-align: center;
+}
+/* 2nd Container-fluid */
+.two{
+    padding:6rem;
+}
+
+.features-icon{
+    margin-bottom: 15px;
+}
+.features-icon{
+    color: #ef8172;
+}
+
+.features-icon:hover{
+    color:#ff4c68;
+}
+.features-bottom{
+    margin-bottom:50px;
+}
+/* Testimonials Section */
+.testomonial-image{
+    border-radius:100%; 
+    width:10%;
+    margin:20px;
+}
+.press-image{
+    width:15%;
+    padding:0 5px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+/* Pricing Section */
+.col{
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+.align{
+    text-align: center;
+}
+@media (max-width:994px){
+    .big-heading{
+        text-align: center;
+    }
+    .title-image{
+        position:static;
+        transform: rotate(0deg);
+    }
+
+}
+.footer-icons{
+    margin:2rem 1rem;
+}
+
+
+
+
+/* Title Section */
+#title{
+    background-color: #ff4c68;
+    padding-bottom: 40px;
+}
+/* Features Section */
+#features{
+    position: relative;
+    z-index:1;
+    background-color: #fff;
+}
+/* Testimonials Section */
+#testimonials{
+    
+    text-align:center;
+    background-color: #ef8172;
+    color:#fff;
+}
+#press{
+    background-color: #ef8172;
+    text-align:center;
+    padding-bottom:6rem;
+}
+/* Pricing Section */
+#pricing{
+    padding:70px;
+}
+
+#footer-div{
+    text-align: center;
+}
+
+
+/* two h3{
+    color:blue;
+}For every h3 in the div "two" apply color blue....this is known as combining selectors and being more specific */
